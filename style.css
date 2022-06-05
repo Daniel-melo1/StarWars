@@ -1,0 +1,428 @@
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+body::-webkit-scrollbar{
+    width:11px;
+  }
+  
+  body::-webkit-scrollbar-track{
+    background: white;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background-color:rgb(255, 67, 67);
+    border-radius:10px;
+    border:3px;
+  }
+
+header{
+    background-image: url(/img/fundotop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 60%;
+    width: 100%;
+    height: 45vw;
+}
+
+.inicio{
+    display: flex;
+    position: relative;
+    z-index: 1; 
+    align-items: center;
+    
+}
+
+.star{
+    width: 24vw;
+    height: 6vw;
+    position: relative;
+    z-index: 3;
+    left: 19.8%;
+}
+
+.kyloren{
+    width: 73vw;
+    position: relative;
+    z-index: 5;
+    right: 14.9%;
+}
+
+.wars{
+    width: 25vw;
+    height: 6vw;
+    position: relative;
+    z-index: 4;
+    right: 31.2%;
+}
+
+.legião{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 79.4vw;
+    bottom: 18vw;
+    width: 9.5vw;  
+}
+
+.legião p{
+    font-size: 1.6vw;
+}
+
+.linhaleg{
+    background-color: black;
+    width: 9.5vw;
+    height: 0.2vw;
+    margin-top: 1.5vw;
+}
+
+.main1{
+    background-image: url(/img/fundomain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 29%;
+    height: 85vw;
+}
+
+.stormbut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 10;
+    bottom:19.5vw;
+    left: 8.4vw;
+}
+
+.storm{
+    width: 21vw;
+    height: 34vw;
+}
+
+.botão1{
+    padding: 0.6vw 1.7vw;
+    position: relative;
+    bottom:8.4vw;
+    color: white;
+    background: transparent;
+    border-radius: 4px;
+    border: 1.5px solid white;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.titulo1{
+    width:13vw;
+    height: 7vw;
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    letter-spacing: 0.2vw;
+}
+
+.descrição{
+    width:18vw;
+    color: lightgray;
+    font-size: 1.2vw;
+    margin-top:5vw;
+    text-align:left;
+}
+
+.desc{
+    position: relative;
+    top:21.2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobreetext{
+    width: 22vw;
+    height: 10.5vw;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    right: 0.6vw;
+    justify-content: space-between;
+}
+
+.sobreetext h2{
+    font-size: 3vh;
+    width: 15vw;
+    height: 2vw;
+    font-size: 1.8vw;
+}
+
+.sobreetext p{
+    width: 28vw;
+    height: 6vw;
+    font-size: 1.1vw ;
+}
+
+.sobre-frente{
+    display: inline-flex;
+    position: relative;
+    left: 50vw;
+    bottom: 38vw;
+}
+
+.frentedebatalha{
+    width: 19vw;
+    height: 11.3vw;
+}
+
+.tudodebatalha{
+    margin-top: 4.5vw;
+    margin-left: 2vw;
+}
+
+.linhasobre{
+    width: 10.9vw;
+    height: 0.2vw;
+    background-color: black;
+    margin-left: 13vw;
+}
+
+.linhaES{
+    width: 80.7vw;
+    height: 0.2vw;
+    background-color: black;
+    position: relative;
+    z-index: 20;
+    bottom: 48.6vw;
+    left: 12.3vw;
+}
+
+.lordshif{
+    width: 45vw;
+    height: 50vw;
+}
+
+.rey{
+    width: 28vw;
+    height: 45vw;
+    position: relative;
+    z-index: 13;
+    right: 16vw;
+    top: 3vw;
+}
+
+.person-li{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    z-index: 12;
+    bottom: 46.8vw;
+    left: 16vw;
+    width: 70vw;
+}
+    
+.listaestrutura{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: space-around;
+    position: relative;
+    z-index: 20;
+    right: 15.5vw;
+    bottom:5vw;
+}
+
+.listaestrutura h2{
+    font-size: 3.5vw;
+    width: 25vw;
+    margin-left: 5vw;
+}
+
+.listaestrutura ul{
+    list-style: none;
+    width: 29vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.6vw;
+}
+
+.listaestrutura li:hover{
+    background-color: rgb(255, 38, 38);
+    color: white;
+}
+
+.listaestrutura li{
+    cursor: pointer;
+}
+
+.partecinza{
+    background-image: url(/img/retangulo\ cinza.png);
+    width: 100%;
+    height: 145vw;
+    position: relative;
+    z-index: 1;
+    bottom: 51vw;
+}
+
+.partecinza h2 {
+    color: white;
+    position: relative;
+    top:8vw;
+    left:19.5vw;
+    width: 12vw;
+    height: 3vw;
+    font-size: 2vw;
+}
+
+.imagemM{
+    width: 40vw;
+    height: 40vw;
+}
+
+.imagemP{
+    width: 27vw;
+    height: 20vw;
+}
+
+.grupodeimagemP{
+    display: flex;
+    flex-wrap:wrap;
+    width: 54.1vw;
+    height: 40vw;
+}
+
+.grupodeimagens{
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+    top: 12vw;
+    left: 2.5vw;
+    width: 94.1vw;
+}
+
+.imgG{
+    width: 90vw;
+    height: 60vw;
+    position: relative;
+    top: 15vw;
+    left: 4.5vw;
+}
+
+.descriçaoH{
+    color: white;
+    position: relative;
+    width: 40vw;
+    text-align: end;
+    left: 54.5vw;
+    top: 16vw;
+    font-size: 0.9vw;
+}
+
+.comojogar{
+    position: relative;
+    z-index: 2;
+    top: -64vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.8vw;
+}
+
+.stormblack{
+    width: 35vw;
+    height: 47vw;
+    position: relative;
+    z-index: 2;
+    bottom:78vw;
+}
+
+.linhadownload{
+    width: 6vw;
+    height: 0.2vw;
+    background-color: black;
+}
+
+.todositens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55vw;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 95vw;
+    left: 35vw;
+}
+
+h3{
+    width: 4vw;
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+.itens p{
+    font-size: 1.2vw;
+    width: 16vw;
+    padding: 2vw;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'open sans';
+    font-size: 2.3VW;
+    width: 15vw;
+    height: 3.8vw;
+    color: #F6F6F6;
+    border: 1px solid black;
+    background-color: black;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(255, 0, 0);
+    opacity: 0.7;
+    transition: all .5s;
+    z-index: 1;
+}
+
+.item1::before{
+    width: 0;
+    height: 100%;
+  
+    top: 0%;
+    right: 0%;
+}
+  
+.item1:hover::before{
+    width: 100%;
+}
+
+footer{
+    background-image: url(/img/retangulo\ laranja.png);
+    width: 55vw;
+    height: 45vw;
+}
